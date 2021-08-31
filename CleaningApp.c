@@ -54,7 +54,7 @@ int main()
     }
     printf("\"recent\" cleaned.\n");
 
-    printf("\nFolders cleaned in %f seconds.\n", time_spent);
+    printf("\nGarbage folders cleaned in %.4f seconds.\n", time_spent);
 
     // Wait 1 second after folders clean and then run tree with tree_runner.exe(Created with pyautogui).
     Sleep(second);

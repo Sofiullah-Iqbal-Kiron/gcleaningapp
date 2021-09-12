@@ -60,7 +60,7 @@ int main()
     Sleep(second);
     system("tree_runner.exe");
     char run_tree[2];
-    printf("\nMake sure:\n1. All of background programs and qbittorrent are closed.\n2. All the folder are accessible.\nRuned tree? [Y/N]: ");
+    printf("\nMake sure:\n1. All of background programs and qbittorrent are closed.\n2. All garbage folders are accessible.\nRuned tree? [Y/N]: ");
     scanf("%c", &run_tree);
     if (tolower(run_tree[0]) == 'y')
     {

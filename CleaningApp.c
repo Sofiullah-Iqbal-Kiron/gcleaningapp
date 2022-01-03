@@ -62,7 +62,7 @@ int main()
     system("start ccleaner");
     printf("[+] Opening CCleaner...");
     // Sleep(4 * second);
-    getch();
+    getch();+
 
     return 0;
 }

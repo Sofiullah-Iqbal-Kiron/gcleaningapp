@@ -59,8 +59,8 @@ int main()
     printf("\n[+] Garbage folders cleaned in %.4f seconds.\n[+] Running tree...", time_spent);
     system("start tree");
     printf("Yep! Completed.\n");
-    system("start ccleaner");
-    printf("[+] Opening CCleaner...");
+    // system("start ccleaner");
+    // printf("[+] Opening CCleaner...");
     // Sleep(4 * second);
     getch();+
 
